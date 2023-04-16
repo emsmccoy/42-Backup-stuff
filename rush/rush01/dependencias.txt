@@ -1,0 +1,40 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    dependencias.txt                                   :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mprats-c <mprats-c@student.42barcel>       +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2023/04/09 13:18:12 by mprats-c          #+#    #+#              #
+#    Updated: 2023/04/09 14:46:10 by mprats-c         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+ESTE ARCHIVO ES PARA QUE NOS ACLAREMOS DE QUE LLAMA A QUE
+
+// main.c //
+int main(void)
+
+	// segurata.c //
+	int fn_verify_params(int argc, char **argv)
+	int fn_cosasmalloc(int argc, char **argv)
+
+	// tetoqueteo.c //
+	void fn_inic( int n, res[n][n])
+	void print_matriz( int n, int res[n][n])
+		void ft_putchar(char c);
+
+	// test.c //
+	int fn_go_on(int n, int res[n][n], int enunc[n*n], int pos[2])
+		int fn_norep(int n, int res[n][n], int f, int c)
+			int fn_norep_f(int n, int res[n][n], int f)
+			int fn_norep_c(int n, int res[n][n], int c)
+		fn_vistas(int n, int res[n][n], int enunc[n*n], int pos[2])
+			fn_vista_cu(int n, int res[n][n], int pos[2])
+			fn_vista_cd(int n, int res[n][n], int pos[2])
+			fn_vista_rl(int n, int res[n][n], int pos[2])
+			fn_vista_rr(int n, int res[n][n], int pos[2])
+	
+	// bailo.c //
+	int fn_un_pasito_palante(int n, int pos[2])
+	int fn_un_pasito_patras(int n, int pos[2], int res[n][n]
