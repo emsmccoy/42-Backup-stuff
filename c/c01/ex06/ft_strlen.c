@@ -22,3 +22,17 @@ int	ft_strlen(char	*str)
 	}
 	return (len);
 }
+
+// version 2 
+
+int ft_strlen(char *str)
+{
+    int len;
+    
+    len = 0;
+    while (str[len])
+    {
+        len++;
+    }
+    return len;
+}
